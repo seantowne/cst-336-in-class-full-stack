@@ -31,6 +31,6 @@ app.get("/*", function(req, res){
     res.render("error.ejs");
 });
 
-app.listen(process.env.PORT || 3000 || 80, function(){
+app.listen(process.env.PORT || 3000 || 8080, function(){
     console.log("Server is running");
 });
