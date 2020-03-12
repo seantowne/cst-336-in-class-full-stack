@@ -1,0 +1,12 @@
+<!-- <%- -%> for includes -->
+<!-- <% %> for executing code -->
+<!-- <%= variable %> for evaluating variable -->
+
+
+/*
+every ejs file has a .ejs extension
+
+nodejs looks into a folder "views" to render a page
+tell nodejs to use ejs as page rendering engine.
+
+*/
