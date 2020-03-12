@@ -9,6 +9,6 @@ app.get("/*", function(rew, res){
     res.send("page not found");
 });
 
-app.listen(process.env.PORT, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("Server is running");
 })
